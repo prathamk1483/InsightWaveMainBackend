@@ -88,14 +88,24 @@ WSGI_APPLICATION = 'PythonBackend.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'demoDB',
+#         'USER': 'demoDB_owner',
+#         'PASSWORD': 'AF0kWMQKV2BN',
+#         'HOST': 'ep-rapid-credit-a52652l7.us-east-2.aws.neon.tech',
+#         'PORT': 5432,
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'demoDB',
-        'USER': 'demoDB_owner',
-        'PASSWORD': 'AF0kWMQKV2BN',
-        'HOST': 'ep-rapid-credit-a52652l7.us-east-2.aws.neon.tech',
-        'PORT': 5432,
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'cOFexoufMmByakWnIkhipfIriBXVzUxs',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'PORT': 34307,
     }
 }
 
