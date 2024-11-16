@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Visualize.apps.VisualizeConfig',
+    # 'Visualize.apps.VisualizeConfig',
     'Preprocess.apps.PreprocessConfig'
 ]
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'Preprocess.middleware.CSVLoaderMiddleware',
-    'Visualize.middleware.CSVLoaderMiddleware',
+    # 'Visualize.middleware.CSVLoaderMiddleware',
 ]
 
 ROOT_URLCONF = 'PythonBackend.urls'

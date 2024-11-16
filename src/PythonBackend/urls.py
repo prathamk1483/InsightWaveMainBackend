@@ -25,5 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index,name="Home"),
     path('preprocess/',include('Preprocess.urls')) ,
-    path('visualize/',include('Visualize.urls')) ,
+    # path('visualize/',include('Visualize.urls')) ,
 ]
