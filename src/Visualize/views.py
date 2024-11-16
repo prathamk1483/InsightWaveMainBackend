@@ -1,17 +1,17 @@
-# from rest_framework.response import Response
-# from django.http import HttpResponse
-# from rest_framework.decorators import api_view
-# from io import StringIO,BytesIO
-# import pandas as pd
-# import matplotlib.pyplot as plt
-# import cloudinary.uploader
-# from io import StringIO
-# import json
-# import matplotlib
-# import requests
-# from PIL import Image
-# import seaborn as sns
-# import google.generativeai as genai
+from rest_framework.response import Response
+from django.http import HttpResponse
+from rest_framework.decorators import api_view
+from io import StringIO,BytesIO
+import pandas as pd
+import matplotlib.pyplot as plt
+import cloudinary.uploader
+from io import StringIO
+import json
+import matplotlib
+import requests
+from PIL import Image
+import seaborn as sns
+import google.generativeai as genai
 
 # matplotlib.use('Agg')
 # my_api_key= "AIzaSyDOs2aSdgZkypnyggSwVwXTaMfc7Vc2ABg"
